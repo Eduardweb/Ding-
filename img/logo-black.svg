@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="50" viewBox="0 0 102 50">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#2E2E2E" font-family="HarmoniaSansProCyr-Regular, Harmonia Sans Pro Cyr" font-size="24" letter-spacing=".8">
+            <tspan x="47" y="33">ding!</tspan>
+        </text>
+        <path fill="#2E2E2E" d="M36 29c0 12.11-16 20.49-16 20.49S4 41.11 4 29h10c0 3.31 2.69 6 6 6s6-2.69 6-6h10z"/>
+        <path fill="#7DD70C" d="M37.939 22H2c.509-9.47 8.359-17 17.969-17 9.61 0 17.46 7.53 17.97 17M40 24.5c0 .83-.638 1.5-1.429 1.5H1.429C.638 26 0 25.33 0 24.5S.638 23 1.429 23h37.142c.791 0 1.429.67 1.429 1.5M18 4h4V3h-4zM22.5 3h-5a1.5 1.5 0 1 1 0-3h5a1.5 1.5 0 1 1 0 3"/>
+    </g>
+</svg>
