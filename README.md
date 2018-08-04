@@ -1,4 +1,3 @@
 # Ding!
 
-nmp i 
-npm start
+nmp i / npm start
