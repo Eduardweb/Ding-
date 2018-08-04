@@ -1,3 +1,4 @@
 # Ding!
 
-# Ding-
+nmp i 
+npm start
