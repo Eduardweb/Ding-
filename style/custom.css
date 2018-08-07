@@ -167,14 +167,12 @@ section{
   position: relative;
   width: 1920px;
   margin: 0 auto;
-  outline: 1px solid blue;
 }
 .container-ding{
   display: block;
   position: relative;
   width: 1180px;
   margin: 0 auto;
-  outline: 1px solid red;
 }
 select::-ms-expand {
   display: none;
@@ -613,6 +611,9 @@ header .slogan{
 }
 .get-customers-wrap{
   padding: 300px 0 200px;
+}
+.box-customers-text-mobile{
+  display: none;
 }
 .get-customers .box{
   position: relative;
@@ -1053,6 +1054,13 @@ footer .rights span.p-bold sup {
   }
 }
 @media screen and (max-width: 767px){
+  .you-get .slick-track{
+    display: block;
+  }
+  .modal-content{
+    width: 100%;
+    padding: 25px 20px 25px;
+  }
   .hide-mobile{
     display: none;
   }
@@ -1191,23 +1199,20 @@ footer .rights span.p-bold sup {
   .how-works-wrap .how-works-steps{
     margin-bottom: 20px;
   }
-/*  */
-.how-works-wrap .arrow-right {
-  bottom: 0;
-  top: -51px;
-  left: 109px;
-  transform: rotate(13deg);
-}
-.how-works-wrap .arrow-left {
-  top: 125px;
-  right: 150px;
-  transform: rotate(-13deg);
-}
-.how-works-wrap .arrow-step {
-  width: 100px;
-}
-/*  */
-
+  .how-works-wrap .arrow-right {
+    bottom: 0;
+    top: -51px;
+    left: 109px;
+    transform: rotate(13deg);
+  }
+  .how-works-wrap .arrow-left {
+    top: 135px;
+    right: 105px;
+    transform: rotate(-13deg);
+  }
+  .how-works-wrap .arrow-step {
+    width: 100px;
+  }
   .how-works-wrap .how-works-steps:nth-child(odd) {
     margin-top: 0;
     display: flex;
@@ -1215,10 +1220,206 @@ footer .rights span.p-bold sup {
     flex-direction: row-reverse;
     margin-bottom: 20px
   }
+  .benefits {
+    padding: 70px 0 40px 0;
+  }
+  .benefits h3 {
+    color: #2e2e2e;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  .benefits h3 sup {
+    font-size: 60px;
+    top: 19px;
+  } 
+  .benefits .benefits-nav {
+    margin: 40px 0 38px;
+    overflow-y: auto;
+    white-space: nowrap;
+    display: block;
+    padding-bottom: 20px;
+    overflow-y: hidden;
+  }
+  .benefits .benefits-slide .benefits-box{
+    width: 95%;
+    padding: 40px 30px;
+    min-height: auto;
+  }
+  h5 {
+    font-size: 24px;
+    line-height: 1.33;
+  }
+  .benefits .benefits-box p {
+    margin-top: 20px;
+  }
+  .get-customers-wrap {
+    padding: 57px 0 40px;
+  }
+  .get-customers .box {
+    width: 240px;
+    height: 240px;
+  }  
+  .get-customers .white-dot-60{
+    width: 30px;
+    height: 30px;
+  }
+  .get-customers .black-dot {
+    width: 4px;
+    height: 4px;
+  }
+  .get-customers .box .black-dot-bottom{
+    width: 8px;
+    height: 8px;
+  }
+  .get-customers .box .white-dot-120 {
+    width: 60px;
+    height: 60px;
+  }
+  .get-customers .box .box-img {
+    width: 140px;
+    height: 140px;
+  }  
+  .get-customers .box {
+    padding: 0;
+  }
+  .pay-for-wrap {
+    padding: 70px 0 70px;
+  }
+  .pay-for-wrap p {
+    margin: 41px 0 0 0;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }  
+  .not-everything h3 {
+    width: 100%;
+  }
+  .not-everything .h-green-dot {
+    margin: 10px 0 0 0;
+  }
+  .not-everything p {
+    margin: 40px 0 0 0;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+  }
+  .wanted-wrap {
+    padding: 70px 0 50px;
+    flex-wrap: wrap;
+  }
+  .wanted-wrap .box{
+    width: 100%;
+  }
+  .wanted .box-logo {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 33px;
+  }
+  .wanted .btn.btn-green {
+    width: 100%;
+    text-align: center;
+    padding: 18px 0 17px;
+}    
+  footer .ding-nav{
+    flex-wrap: wrap;
+    margin: 40px auto 30px;
+  }
+  footer .ding-nav a {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  footer .rights p{
+    padding-bottom: 30px;
+  }
+  .get-customers .box .box-img-left {
+    left: -52px;
+    top: 60px;
+  }
+  .get-customers .box .box-img-right {
+    right: -33px;
+  }
+  .cget-customers-wrap {
+    overflow: hidden;
+  }
+  .get-customers .box .black-dot-top {
+    top: -15px;
+    left: 100px;
+  }
+  .get-customers .box .white-dot-120 {
+    right: 0;
+    bottom: -25px;
+    left: 70px;
+  }
+  .get-customers .box .white-dot-top-right {
+    top: -20px;
+    right: 88px;
+  }  
+  .get-customers .box .white-dot-15.white-dot-center{
+    display: none;
+  }
+  .get-customers .box .white-dot-60.white-dot-center{
+    top: 177px;
+    right: -31px;
+  }
+  .get-customers .box .black-dot-bottom{
+    bottom: 15px;
+    left: 145px;
+  }
+  .box-customers-text {
+    display: none;
+  }
+  .box-customers-text-mobile{
+    display: block;
+    padding: 63px 0 0;
+  }
+  .get-customers .btn.btn-black {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 30px auto 0;
+    display: block;
+  }
+  .box-customers-text-mobile h3{
+    font-size: 32px;
+    text-align: left;
+    line-height: 1.25;
+    color: #2e2e2e;
+  }
+  .box-customers-text-mobile p{
+    color: #2e2e2e;
+    margin-top: 20px;
+  }
+  .benefits .benefits-nav::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;  
+  }
+  .wanted .text-after-btn{
+    width: 100%;
+  }
+  .modal-content .close {
+    top: 5px;
+  }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 420px){
   
+  .benefits .benefits-nav a{
+    margin: 0 30px 0;
+  }
+  .get-customers {
+    overflow: hidden;
+  }
+  .modal-content .close {
+    top: 0px;
+  }
+  .top-header .btn.btn-white{
+    position: absolute;
+    right: 0;
+  }
 }
 @media screen and (max-width: 320px){
   

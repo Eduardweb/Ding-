@@ -6,16 +6,6 @@ $(document).ready(function(){
         arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
-        responsive: [
-          // {
-          //   breakpoint: 1919,
-          //   settings: {
-          //     slidesToShow: 5,
-          //     slidesToScroll: 1,
-          //     infinite: true
-          //   }
-          // }
-        ]
     });
 
     $('a[data-slide]').click(function(e) {
