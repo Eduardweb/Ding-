@@ -134,8 +134,8 @@ span.p-bold{
   font-family: 'HarmoniaSansProCyrBold';
 }
 span.p-bold sup{
-  font-size: 32px;
-  top: 11px;
+  top: -4px;
+  font-size: 65%;
 }
 .color-white{
   color: #fff;
@@ -539,8 +539,9 @@ header .slogan{
   color: #2e2e2e;
 }
 .benefits h3 sup{
-  font-size: 86px;
-  top: 27px;
+  top: -11px;
+  font-size: 65%;
+  position: relative;
 }
 .benefits .benefits-nav{
   display: flex;
@@ -851,11 +852,6 @@ footer .rights p{
   font-size: 14px;
   text-align: center;
 }
-footer .rights span.p-bold sup {
-  font-size: 29px;
-  top: 11px;
-}
-
 /* ======== Modal ============= */
 .modal-content{
   width: 580px;
@@ -969,8 +965,11 @@ footer .rights span.p-bold sup {
     width: 400px;
     left: 0;
     top: -130px;
-    right: 100px;
+    right: 0;
     margin: 0 auto;
+  }
+  .dreaming-wrap .iphone img{
+    margin-left: -50px;
   }
   .dreaming-wrap .logo {
     margin: 100px auto 40px;
@@ -1115,7 +1114,9 @@ footer .rights span.p-bold sup {
     top: -120px;
     right: 0;
     left: 0;
-    margin-left: -45px;
+  }
+  .dreaming-wrap .iphone img{
+    margin-left: -38px;
   } 
   .dreaming-wrap .logo {
     margin: 135px auto 29px;
@@ -1230,8 +1231,7 @@ footer .rights span.p-bold sup {
     margin: 0 auto;
   }
   .benefits h3 sup {
-    font-size: 60px;
-    top: 19px;
+   top: -7px; 
   } 
   .benefits .benefits-nav {
     margin: 40px 0 38px;
@@ -1414,13 +1414,23 @@ footer .rights span.p-bold sup {
     overflow: hidden;
   }
   .modal-content .close {
-    top: 0px;
+    top: 3px;
+    right: 12px;
   }
-  .top-header .btn.btn-white{
+  .top-header .btn.btn-white {
     position: absolute;
-    right: 0;
+    right: 15px;
+    top: 45px;
+}
+  .dreaming-wrap .iphone img {
+    margin-left: -43px;
   }
 }
-@media screen and (max-width: 320px){
-  
+@media screen and (max-width: 350px){
+  .dreaming-wrap .iphone {
+    width: 300px;
+  }
+  .dreaming-wrap .iphone img {
+    margin-left: -40px;
+  }
 } 
